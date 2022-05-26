@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Circe Bold';
+    src: url('/fonts/circe_bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('/fonts/circe_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('/fonts/circe_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/circe_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('/fonts/circe_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/fonts/circe_bold.svg#circe_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Circe ExtraBold';
+    src: url('fonts/circe_extrabold.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/circe_extrabold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('fonts/circe_extrabold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/circe_extrabold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('fonts/circe_extrabold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/circe_extrabold.svg#circe_extrabold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Circe ExtraLight';
+    src: url('fonts/circe_extralight.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/circe_extralight.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('fonts/circe_extralight.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/circe_extralight.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('fonts/circe_extralight.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/circe_extralight.svg#circe_extralight') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Circe Light';
+    src: url('fonts/circe_light.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/circe_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('fonts/circe_light.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/circe_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('fonts/circe_light.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/circe_light.svg#circe_light') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('fonts/circe.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/circe.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('fonts/circe.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/circe.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('fonts/circe.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/circe.svg#circe') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Circe Thin';
+    src: url('fonts/circe_thin.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/circe_thin.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('fonts/circe_thin.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/circe_thin.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('fonts/circe_thin.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/circe_thin.svg#circe_thin') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    font-family: Circe, "Circe Bold", monospace;
+}
+#container {
+    background:  linear-gradient(180deg, #5D83CE 0%, #75C2EE 100%);
+
+    margin-bottom: 0;
+    padding-top: 1%;
+    padding-bottom: 10%;
+
+}
+#header {
+    background: #FFFFFF;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+
+}
+#text {
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+    color: #3C3C3C;
+
+    align: center
+}
+#name {
+    align: center;
+
+    width: 191px;
+    height: 18px;
+    color: #4572CC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    /*margin-left: 197px;*/
+    margin-top: 40px;
+    margin-bottom: 37px
+
+}
+#border {
+    width: 250%;
+    height: 51px;
+    color: #C1C1C1
+}
+#border2 {
+    width: 250%;
+    height: 51px;
+    color: #C1C1C1
+}
+#form {
+    width: 25%;
+    height: 20px;
+    color: #C1C1C1;
+    margin-left: 3%;
+    margin-right: 30%;
+    padding-left: 1%;
+    text-align: left;
+}
+#form2 {
+    width: 32%;
+    height: 20px;
+    color: #C1C1C1;
+    margin-left: 3%;
+    padding-left: 1%;
+    text-align: left;
+
+}
+
+
+#image_moscot {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: -20%;
+}
+#buttons {
+    width: 50%;
+    height: 51px;
+    background: linear-gradient(90deg, #5D83CE 0%, #75C2EE 100%);
+    border-radius: 30px;
+    align: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#footer {
+
+    background: #f1f1f1;
+    margin-top: 0;
+    padding-top: 0;
+
+
+}
+#copyrighting {
+    width: 89px;
+    height: 18px;
+    padding-top: 38px;
+    color: #c1c1c1;
+}
+#inputdorm{
+    border-style: none;
+    width: 96%;
+    height: 60%;
+    padding-left: 1%;
+    color: #C1C1C1;
+
+}
+#message{
+    color: red;
+    align-content: center;
+    font-weight: 100;
+    font-size: 80%;
+    padding: 5%;
+}

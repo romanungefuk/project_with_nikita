@@ -1,0 +1,105 @@
+@font-face{
+
+font-family: 'Circle';
+
+src: url('../fonts/WebFont.eot');
+
+src: url('../fonts/WebFont.eot?iefix') format('eot'),
+
+url('../fonts/WebFont.woff') format('woff'),
+
+url('../fonts/WebFont.ttf') format('truetype'),
+
+url('../fonts/WebFont.svg#webfont') format('svg');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    font-family: sans-serif
+}
+.container {
+    background:  linear-gradient(180deg, #5D83CE 0%, #75C2EE 100%);
+    width: 1440px;
+    height: 931px;
+    
+}
+.header {
+    width: 584px;
+    height: 466px;
+    background: #FFFFFF;
+    margin-left: 455px;
+    margin-top: 233px;
+    position: absolute;
+}
+.text {
+    width: 406px;
+    height: 18px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+    color: #3C3C3C;
+    padding-top: 69px;
+}
+.name {
+    width: 191px;
+    height: 18px;
+    color: #4572CC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    margin-left: 197px;
+    margin-top: 20px;
+    margin-bottom: 37px;
+}
+.border {
+    width: 398px;
+    height: 51px;
+}
+.form {
+    width: 132px;
+    height: 20px;
+    color: #C1C1C1;
+}
+.password {
+    width: 398px;
+    height: 34px;
+    border: none;
+}
+.buttons {
+    width: 400px;
+    height: 51px;
+    background: linear-gradient(90deg, #5D83CE 0%, #75C2EE 100%);
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 92px;
+    color: white;
+    border: none;
+}
+.image_moscot {
+    text-align: right;
+    margin-right: 110px;
+    margin-top: 349px;
+    position: relative;
+}
+.footer {
+    width: 1440px;
+    height: 93px;
+    background: #f1f1f1;
+}
+.copyrighting {
+    width: 89px;
+    height: 18px;
+    padding-top: 38px;
+    color: #c1c1c1;
+}

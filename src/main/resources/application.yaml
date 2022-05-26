@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: mysql
+server:
+  port: 8090
+  #port: 8443
+  tomcat.uri-encoding: utf-8
+  # The format used for the keystore. It could be set to JKS in case it is a JKS file
+
+  #*********************************************
+  #ssl:
+    #key-store-type: PKCS12
+    #key-store: /var/www/equp/cert/equp.p12
+    #key-store-password:
+  #*********************************************
+jwt:
+  token:
+    secret: SXQnc015U2VjcmV0S2V5MWQ5OFQ3Y2lqaGFzODd5am5iY2l1eTdTM2RhOXs4eWNramhrajM3a2poRmRpOHlxamtoamtraixtamxranpDZGY7ams7al5sa2pmamtnYmV3dWloa2pubCQ7ZmlvaHdlaWhq
+    #expired: 1814400000 # 3 недели
+#    expired: 60000 # 1 минута
+    expired: 16070400000 # 6 * 31 = 186 дней
+
+

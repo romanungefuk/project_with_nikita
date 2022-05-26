@@ -1,0 +1,28 @@
+spring:
+  datasource:
+
+    #    url: jdbc:postgresql://10.0.0.11:5432/PostgreSQL-7801
+        url: jdbc:postgresql://185.86.145.179:5432/PostgreSQL-7801          - БД в инфра майл
+    #url: jdbc:postgresql://185.255.133.253:5432/db_equp
+    #url: jdbc:postgresql://localhost:5432/PostgreSQL-7801
+    username: equp
+    password: 5aKfpGNNswxHXmsg
+    driver-class-name: org.postgresql.Driver
+    initialization-mode: ALWAYS
+    schema: classpath*:database/initDB.sql
+    #data: classpath*:database/populateDB.sql
+
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    enabled: true
+    classpath: classpath:/templates/
+    #    prefix: classpath:resources/templates/
+    suffix: .html
+
+
+  jpa:
+    database:
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+

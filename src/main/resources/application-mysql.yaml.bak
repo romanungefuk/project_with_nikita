@@ -1,0 +1,40 @@
+spring:
+  datasource:
+
+#    url: jdbc:postgresql://10.0.0.11:5432/PostgreSQL-7801
+#    url: jdbc:postgresql://185.86.145.179:5432/PostgreSQL-7801          - БД в инфра майл
+    #url: jdbc:postgresql://185.255.133.253:5432/db_equp
+    #url: jdbc:mariadb://127.0.0.1:3306/db_equp
+    #url: jdbc:mysql://10.0.1.4:3306/SUBD_equp?characterEncoding=UTF-8
+    url: jdbc:mysql://127.0.0.1:3306/SUBD_nikita?characterEncoding=UTF-8&&serverTimezone=UTC
+   # url: jdbc:postgresql://185.255.133.253:5432/PostgreSQL-7801
+    #url: jdbc:postgresql://localhost:5432/PostgreSQL-7801
+    username: root
+    password: 1Qwerty1@1
+    #driver-class-name: org.mariadb.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
+    initialization-mode: ALWAYS
+    schema: classpath*:database/initDB.sql
+    data: classpath*:database/populateDB.sql
+    hikari:
+      max-lifetime: 120000
+
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    enabled: true
+    classpath: classpath:/templates/
+#    prefix: classpath:resources/templates/
+    suffix: .html
+
+
+  jpa:
+    database:
+      hibernate:
+        #ddl-auto: validate
+        ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+
+

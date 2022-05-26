@@ -1,0 +1,45 @@
+body{
+    font-family: helvetica, sans-serif;
+}
+.back{
+    background: linear-gradient(
+            0deg, /* задаём направление градиента */
+            #74c0ed 0%, /* задаём цвет и позицию первой точки градиента */
+            #5e85cf 100% /* задаём цвет и позицию второй точки градиента */
+    );
+}
+.context{
+    background: white;
+    margin: 20%;
+    padding: 50px;
+}
+.ligal{
+    background: aquamarine;
+}
+.ui-button{
+    font-family: helvetica, sans-serif;
+
+    background: linear-gradient(
+            90deg, /* задаём направление градиента */
+            #74c0ed 0%, /* задаём цвет и позицию первой точки градиента */
+            #5e85cf 100%); /* задаём цвет и позицию второй точки градиента */
+    margin: 25px auto;
+    position: relative;
+
+    left: 30%;
+
+    color: #ffffff;
+    padding: 20px;
+    font-weight: 600;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+
+
+}
