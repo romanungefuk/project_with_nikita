@@ -14,3 +14,14 @@
 13) cd target
 14) java -jar backend-equp-prod.jar
 15) if all is ok, then http://localhost:8090/api/v1/auth/check will response "ok"
+
+# Docker
+https://hub.docker.com/repository/docker/martold/martoldhub
+
+1. docker network create todo-app - создаешь сеть в докере
+2. docker run -d -p 3306:3306 --name mysql\
+     --network todo-app --network-alias mysql \
+     -v todo-mysql-data:/var/lib/mysql \
+     -e MYSQL_ROOT_PASSWORD=supersecret \
+     martold/martoldhub:mysql_latest - создаешь контейнер с базой.
+3. docker run -d -p 8080:8080 --network todo-app martold/martoldhub:app_latest - создаешь контейнер с приложением.
