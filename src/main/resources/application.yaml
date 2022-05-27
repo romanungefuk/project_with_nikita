@@ -2,7 +2,7 @@ spring:
   profiles:
     active: mysql
 server:
-  port: 8090
+  port: 8080
   #port: 8443
   tomcat.uri-encoding: utf-8
   # The format used for the keystore. It could be set to JKS in case it is a JKS file
